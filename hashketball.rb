@@ -212,7 +212,7 @@ def big_shoe_rebounds
   player_rebounds
 end
 
-#Next section pulled from solutions, ends at next comment. Need analysis
+#Bonus pulled from solutions, ends at next comment. Need analysis
 def iterate_through_players_for(name, statistic)
   game_hash.each do |_team, game_data|
     game_data[:players].each do |player|
